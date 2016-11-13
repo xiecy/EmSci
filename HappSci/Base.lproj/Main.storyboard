@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HappSci" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nac-AY-skD">
+                                <rect key="frame" x="0.0" y="59" width="375" height="608"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OQN-9z-YeO">
+                                <rect key="frame" x="0.0" y="0.0" width="16" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="16" id="72B-bh-gWA"/>
+                                </constraints>
+                                <state key="normal" title=" "/>
+                                <connections>
+                                    <action selector="sendPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ovh-JB-dx2"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Two Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6hh-cm-PQU">
+                                <rect key="frame" x="0.0" y="-1" width="375" height="61"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.080024614726027399" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6hh-cm-PQU" firstAttribute="leading" secondItem="OQN-9z-YeO" secondAttribute="leading" id="CLk-U9-XN9"/>
+                            <constraint firstItem="Nac-AY-skD" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="CuR-1Y-C80"/>
+                            <constraint firstItem="OQN-9z-YeO" firstAttribute="baseline" secondItem="6hh-cm-PQU" secondAttribute="firstBaseline" id="LbI-QG-8Zh"/>
+                            <constraint firstItem="OQN-9z-YeO" firstAttribute="firstBaseline" secondItem="6hh-cm-PQU" secondAttribute="firstBaseline" id="Noa-26-uQL"/>
+                            <constraint firstItem="Nac-AY-skD" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="39" id="Tag-AH-hzV"/>
+                            <constraint firstItem="OQN-9z-YeO" firstAttribute="bottom" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="b2D-IO-hYa"/>
+                            <constraint firstItem="OQN-9z-YeO" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ne0-H9-OZM"/>
+                            <constraint firstItem="OQN-9z-YeO" firstAttribute="leading" secondItem="Nac-AY-skD" secondAttribute="leading" id="pSG-s9-iQk"/>
+                            <constraint firstAttribute="trailing" secondItem="Nac-AY-skD" secondAttribute="trailing" id="riq-1i-n1l"/>
+                            <constraint firstItem="OQN-9z-YeO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="vRs-i8-a4l"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="6hh-cm-PQU" secondAttribute="bottom" constant="607" id="z1c-hB-RB5"/>
+                            <constraint firstItem="6hh-cm-PQU" firstAttribute="trailing" secondItem="Nac-AY-skD" secondAttribute="trailing" id="ztt-28-dJk"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="notifStateLabel" destination="6hh-cm-PQU" id="rjp-Px-M2s"/>
+                        <outlet property="webView" destination="Nac-AY-skD" id="fYU-oY-YE8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="116" y="121.88905547226388"/>
+        </scene>
+    </scenes>
+</document>
