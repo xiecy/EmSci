@@ -11,14 +11,13 @@ import UserNotifications
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var notifStateLabel: UILabel!
     @IBOutlet weak var webView: UIWebView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        notifStateLabel.text = "\nEmSci"
+        //notifStateLabel.text = "\nEmSci"
         
         self.view.backgroundColor = UIColor.white
         
@@ -83,8 +82,8 @@ class ViewController: UIViewController {
         
         //let date = Date(timeIntervalSinceNow: 10)
         
-        let hr = 19
-        let min = 46
+        let hr = 4
+        let min = 02
         let sec = 0.0
         let hms = 18000.0 + Double(hr) * 3600.0 + Double(min) * 60.0 + Double(sec)
         

@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4B2BE8A81DD6F9FD0088C6ED /* HappSci.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappSci.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B2BE8A81DD6F9FD0088C6ED /* EmSci.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmSci.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B2BE8AB1DD6F9FD0088C6ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B2BE8AD1DD6F9FD0088C6ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4B2BE8B01DD6F9FD0088C6ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -39,7 +39,7 @@
 		4B2BE89F1DD6F9FD0088C6ED = {
 			isa = PBXGroup;
 			children = (
-				4B2BE8AA1DD6F9FD0088C6ED /* HappSci */,
+				4B2BE8AA1DD6F9FD0088C6ED /* EmSci */,
 				4B2BE8A91DD6F9FD0088C6ED /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,12 +47,12 @@
 		4B2BE8A91DD6F9FD0088C6ED /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4B2BE8A81DD6F9FD0088C6ED /* HappSci.app */,
+				4B2BE8A81DD6F9FD0088C6ED /* EmSci.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4B2BE8AA1DD6F9FD0088C6ED /* HappSci */ = {
+		4B2BE8AA1DD6F9FD0088C6ED /* EmSci */ = {
 			isa = PBXGroup;
 			children = (
 				4B2BE8DB1DD6FFB80088C6ED /* HappSci.entitlements */,
@@ -63,15 +63,16 @@
 				4B2BE8B41DD6F9FD0088C6ED /* LaunchScreen.storyboard */,
 				4B2BE8B71DD6F9FD0088C6ED /* Info.plist */,
 			);
+			name = EmSci;
 			path = HappSci;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4B2BE8A71DD6F9FD0088C6ED /* HappSci */ = {
+		4B2BE8A71DD6F9FD0088C6ED /* EmSci */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B2BE8BA1DD6F9FD0088C6ED /* Build configuration list for PBXNativeTarget "HappSci" */;
+			buildConfigurationList = 4B2BE8BA1DD6F9FD0088C6ED /* Build configuration list for PBXNativeTarget "EmSci" */;
 			buildPhases = (
 				4B2BE8A41DD6F9FD0088C6ED /* Sources */,
 				4B2BE8A51DD6F9FD0088C6ED /* Frameworks */,
@@ -81,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = HappSci;
+			name = EmSci;
 			productName = HappSci;
-			productReference = 4B2BE8A81DD6F9FD0088C6ED /* HappSci.app */;
+			productReference = 4B2BE8A81DD6F9FD0088C6ED /* EmSci.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,7 +112,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4B2BE8A31DD6F9FD0088C6ED /* Build configuration list for PBXProject "HappSci" */;
+			buildConfigurationList = 4B2BE8A31DD6F9FD0088C6ED /* Build configuration list for PBXProject "EmSci" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -124,7 +125,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4B2BE8A71DD6F9FD0088C6ED /* HappSci */,
+				4B2BE8A71DD6F9FD0088C6ED /* EmSci */,
 			);
 		};
 /* End PBXProject section */
@@ -273,7 +274,7 @@
 				DEVELOPMENT_TEAM = 63934CMXQD;
 				INFOPLIST_FILE = HappSci/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.xcy.EmSci;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clark.EmSci;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -287,7 +288,7 @@
 				DEVELOPMENT_TEAM = 63934CMXQD;
 				INFOPLIST_FILE = HappSci/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.xcy.EmSci;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clark.EmSci;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -296,7 +297,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4B2BE8A31DD6F9FD0088C6ED /* Build configuration list for PBXProject "HappSci" */ = {
+		4B2BE8A31DD6F9FD0088C6ED /* Build configuration list for PBXProject "EmSci" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B2BE8B81DD6F9FD0088C6ED /* Debug */,
@@ -305,7 +306,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B2BE8BA1DD6F9FD0088C6ED /* Build configuration list for PBXNativeTarget "HappSci" */ = {
+		4B2BE8BA1DD6F9FD0088C6ED /* Build configuration list for PBXNativeTarget "EmSci" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B2BE8BB1DD6F9FD0088C6ED /* Debug */,

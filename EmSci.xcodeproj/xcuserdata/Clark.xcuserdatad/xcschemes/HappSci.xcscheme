@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4B2BE8A71DD6F9FD0088C6ED"
-               BuildableName = "HappSci.app"
-               BlueprintName = "HappSci"
-               ReferencedContainer = "container:HappSci.xcodeproj">
+               BuildableName = "EmSci.app"
+               BlueprintName = "EmSci"
+               ReferencedContainer = "container:EmSci.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4B2BE8A71DD6F9FD0088C6ED"
-            BuildableName = "HappSci.app"
-            BlueprintName = "HappSci"
-            ReferencedContainer = "container:HappSci.xcodeproj">
+            BuildableName = "EmSci.app"
+            BlueprintName = "EmSci"
+            ReferencedContainer = "container:EmSci.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4B2BE8A71DD6F9FD0088C6ED"
-            BuildableName = "HappSci.app"
-            BlueprintName = "HappSci"
-            ReferencedContainer = "container:HappSci.xcodeproj">
+            BuildableName = "EmSci.app"
+            BlueprintName = "EmSci"
+            ReferencedContainer = "container:EmSci.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4B2BE8A71DD6F9FD0088C6ED"
-            BuildableName = "HappSci.app"
-            BlueprintName = "HappSci"
-            ReferencedContainer = "container:HappSci.xcodeproj">
+            BuildableName = "EmSci.app"
+            BlueprintName = "EmSci"
+            ReferencedContainer = "container:EmSci.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

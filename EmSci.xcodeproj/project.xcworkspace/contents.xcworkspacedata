@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:HappSci.xcodeproj">
+      location = "self:/Users/Clark/Study/Yale/SDMP/HappSci/EmSci.xcodeproj">
    </FileRef>
 </Workspace>
